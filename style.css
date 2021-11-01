@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+body{
+    font-family: 'Jost', sans-serif;
+    margin: 0;
+}
+
+/* -------- NAVBAR --------- */
+
+.navbar {
+    top: 0px;
+    left: 0px;
+    width: auto;
+    height: 104px;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    margin-left: 140px;
+}
+.menu-left{
+    width: 500px;
+    margin-left: 78px;
+}
+.menu-left a {
+    padding-right: 23px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.menu-right{
+    width: 600px;
+    margin-left: 487px;
+}
+
+.menu-right a {
+    padding-right: 50px;
+    text-decoration: none;
+    color: black;
+}
+.button{
+    width: 144px;
+    line-height: 56px;
+    background-color: #FFE401;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+/* -------- YELLOW CONTENT --------- */
+
+.yellow-content{
+    height: 807px;
+    background-color: #FFE401;
+}
+
+.apostrophe_blanc{
+    position: absolute;
+    top: 287px;
+    left: 166px;
+    height: 284px;
+}
+.front-yellow-content{
+    position: absolute;
+    z-index: 1;
+    height: 807px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.text-left{
+    width : 700px;
+    height: 273px;
+    margin-left: 150px;
+    margin-bottom: 160px;
+}
+.text-left h3{
+    width: 152px;
+    height: 25px;
+    margin-left: 120px;
+}
+.text-left p{
+    margin : 0 0 40px 0;
+    font-weight: bold;
+    letter-spacing: 2.8px;
+    font-size: 70px;
+}
+.img-right{
+    margin-left: 200px;
+}
+
+.button-free{
+    width: 276px;
+    height: auto;
+    padding: 20px;
+    background-color: black;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+    color: white;
+}
+
+/* -------- GRISATRE --------- */
+
+.grisatre{
+    background-color: #F8F8F8;
+    height: 407px;
+}
+.grisatre h2 {
+    margin: 0;
+    padding-top: 86px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.gris-content{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.gris-card{
+    width: 374px;
+    height: 152px;
+}
+.gris-card img {
+    display: flex;
+    text-align: center;
+    margin: auto;
+}
+.gris-card h5 {
+    font-size: 25px;
+    text-align: center;
+    margin:  18px 0 0 0;
+}
+.gris-card p {
+    text-align: center;
+}
+
+/* ------------- PORJETS ----------- */
+
+
+.projets{
+    margin: 0;
+    padding-top: 128px;
+    margin-bottom: 185px;
+}
+.apostrophe_jaune{
+    position: absolute;
+    top: 1446px;
+    left: 48%;
+    width: 85px; 
+}
+.texte{
+    width: 812px;
+    height: 199px;
+    margin-left: 550px;
+    text-align: center;
+}
+
+
+.cours{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    width: 536px;
+    height: 470px;
+    background-color: #E8E8E8;
+    border-radius: 10px;
+    margin-right: 16px;
+    text-align: center;
+    padding-top: 20px;
+}
+.card img{
+    align-items: center;
+}
+
+.caract{
+    display: flex;
+    margin-left: 21px;
+    width: 400px;
+    height: 13px;
+}
+.niveau{
+    display: flex;
+}
+.niveau p {
+    color: green;
+    margin: 0 0 0 15px;
+}
+.temps p {
+    margin: 0 0 0 30px;
+
+}
+
+.contenu{
+    text-align: left;
+    margin: 16px 0 4px 19px;
+}
+.contenu h4{
+    font-size: 24px;
+    margin-bottom: 0;
+}
+.contenu p{
+    margin-top: 5px;
+}
+
+.button2{
+    width: 144px;
+    line-height: 56px;
+    background-color: #FFE401;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    vertical-align: middle;
+    margin-top: 53px;
+    margin-left: 371px;
+}
+.button-cours{
+    width: 188px;
+    line-height: 56px;
+    background-color: #efefef;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    vertical-align: middle;
+    margin-top: 48px;
+    margin-left: 880px;
+}
+
+
+.explore{
+    height: 560px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 185px;
+}
+.img-explore img{
+    width: 812px;
+    height: 560px;
+}
+.text-explore{
+    margin-top: 146px;
+
+}
+.text-explore h3{
+    font-size: 40px;
+}
+.text-explore p{
+    width: 536px;
+}
+
+.button-explore{
+    width: 260px;
+    line-height: 56px;
+    border-radius: 10px;
+    border: 1px solid black;
+    text-align: center;
+    font-weight: bold;
+    vertical-align: middle;
+}
+.button-explore a{
+    text-decoration: none;
+    color: black;
+}
+
+.technique{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.button-technique{
+    width: 154px;
+    line-height: 56px;
+    border-radius: 10px;
+    border: 1px solid black;
+    text-align: center;
+    font-weight: bold;
+    vertical-align: middle;
+}
+.button-technique a{
+    text-decoration: none;
+    color: black;
+}
+
+.footer{
+    height: 400px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 100px
+} 
+.adresse{
+    font-size: 22px;
+    font-weight: bold;
+}
+.atelier{
+    display: flex;
+}
+
+/* MEDIA QUERIES  */
+
+@media screen and (max-width: 1700px) {
+    /* .menu-left{
+       width: 500px;
+    } */
+}
